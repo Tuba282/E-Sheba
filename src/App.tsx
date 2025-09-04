@@ -1,4 +1,4 @@
-import CardSection from './Components/cards'
+import CardSection from './Components/Cards'
 import Choise from './Components/Choise'
 import Footer from './Components/Footer'
 import HeroSection from './Components/HeroSection'
