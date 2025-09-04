@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root{
+    --darkBlue: #0360D9;
+    --lightBlue: #E1EEFF;
+    --shadePicBlue: #A5CCFF;
+    --black: #2E2E2E;
+}
+/* #0360D9----dark blue
+#E6F5FC-----light blue
+#A5CCFF-----shade pic blue (half circle color)
+#2E2E2E-----black
+#FFFFFF------white
+#0D2B46-----nav color
+#A8A8A8-----card border color
+icon are white */
