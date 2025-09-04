@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       {/* Newsletter Section */}
-      <div className="bg-[#1064e6] px-2 py-10 md:py-14 rounded-xl max-w-5xl mx-auto mt-8 md:mt-12 mb-0 md:mb-8">
+      <div data-aos="fade-up" data-aos-duration="1500" className="bg-[#1064e6] px-2 py-10 md:py-14 rounded-xl max-w-5xl mx-auto mt-8 md:mt-12 mb-0 md:mb-8">
         <h2 className="text-white text-2xl md:text-3xl font-bold text-center mb-8 drop-shadow-xs drop-shadow-black">Subscribe To Our Newsletter</h2>
         <form className="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-2xl mx-auto bg-white p-3 rounded-full">
           <input
@@ -29,7 +29,7 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex flex-col md:flex-row md:justify-between gap-12">
             {/* E-sheba */}
-            <div className="flex-1 min-w-[220px]">
+            <div data-aos="fade-left" data-aos-duration="2000" className="flex-1 min-w-[220px]">
               <h3 className="font-bold text-4xl mb-2 drop-shadow-xs drop-shadow-black">E-sheba</h3>
               <p className="text-xs mb-2 opacity-90">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec risus feugiat lectus risus sed ullamcorper. Auctor semper fermentum</p>
               <p className="text-xs opacity-90 mb-3">volutpat integer vel. In rhoncus elementum nunc, malesuada mi sed. Nibh est sit lobortis id semper.</p>
@@ -40,7 +40,7 @@ const Footer = () => {
               </div>
             </div>
             {/* Useful Links */}
-            <div className="flex-1 min-w-[180px]">
+            <div data-aos="fade-up" data-aos-duration="2000" className="flex-1 min-w-[180px]">
               <h3 className="font-semibold text-xl mb-2 drop-shadow-xs drop-shadow-black">Useful Links</h3>
               <ul className="space-y-1 text-sm">
                 <li><a href="#about" className="hover:underline text-xs">About Us</a></li>
@@ -50,7 +50,7 @@ const Footer = () => {
               </ul>
             </div>
             {/* Address */}
-            <div className="flex-1 min-w-[180px]">
+            <div data-aos="fade-right" data-aos-duration="2000" className="flex-1 min-w-[180px]">
               <h3 className="font-semibold text-xl mb-2 drop-shadow-xs drop-shadow-black">Address</h3>
               <div className="rounded-lg overflow-hidden w-full h-28 md:h-32">
                 <img

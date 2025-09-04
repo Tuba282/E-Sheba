@@ -46,7 +46,7 @@ function SelectActionCard() {
                 <Card className='my-5'>
                     <CardActionArea
                     >
-                        <CardContent className='h-60 flex flex-col gap-3 px-5 hover:bg-[var(--darkBlue)] rounded-2! border-2 border-[var(--darkBlue)] hover:text-white transition-all duration-300'>
+                        <CardContent   data-aos="fade-left" data-aos-duration="1500" className='h-60 flex flex-col gap-3 px-5 hover:bg-[var(--darkBlue)] rounded-2! border-2 border-[var(--darkBlue)] hover:text-white transition-all duration-300'>
                             <div className="w-16 h-16 bg-[var(--lightBlue)] rounded-full flex items-center justify-center mb-2">
                                 {card.icon}
                             </div>
@@ -68,7 +68,7 @@ function SelectActionCard() {
 const CardSection = () => {
     return (
         <div className='min-h-[500px] p-10 my-5 sm:my-10 md:my-20 px-5 lg:px-20'>
-            <h1 className='group  text-3xl sm:text-5xl font-bold mb-5 grid gap-2'>Our Consulting Specialists
+            <h1 className='group  text-3xl sm:text-5xl font-bold mb-5 grid gap-2' data-aos="fade-right" data-aos-duration="1200">Our Consulting Specialists
                 <div className="bg-[var(--darkBlue)] rounded-2xl h-[3px] w-0 transition-all duration-500 group-hover:w-130"></div>
             </h1>
 

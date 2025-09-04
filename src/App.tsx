@@ -5,10 +5,13 @@ import HeroSection from './Components/HeroSection'
 import Members from './Components/Members'
 import DrawerAppBar from './Components/Navbar'
 import Quality from './Components/Quality'
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+// ..
+AOS.init();
 const App = () => {
   return (
-    <div >
+    <div className='overflow-hidden'>
       <DrawerAppBar/>
       <HeroSection/>
       <CardSection/>

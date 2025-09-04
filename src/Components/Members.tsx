@@ -6,7 +6,7 @@ const Members = () => {
             className="my-10 mx-auto max-w-7xl flex lg:justify-between gap-8 bg-[var(--lightBlue)] flex-col-reverse lg:flex-row">
 
 
-            <div className="w-full lg:w-[50%] lg:h-[380px] lg:p-15 flex flex-col jus gap-8  p-5  ">
+            <div data-aos="fade-left" data-aos-duration="2500"  className="w-full lg:w-[50%] lg:h-[380px] lg:p-15 flex flex-col jus gap-8  p-5  ">
                 <div className="text flex flex-col">
                     <h2 className="text-3xl lg:text-4xl font-bold text-center md:text-left  leading-tight ">
                         What Our
@@ -32,7 +32,7 @@ const Members = () => {
             </div>
 
 
-            <div className="w-full lg:w-[50%] lg:h-[380px] p-5 lg:p-15 flex justify-center items-center">
+            <div data-aos="fade-right" data-aos-duration="2500"  className="w-full lg:w-[50%] lg:h-[380px] p-5 lg:p-15 flex justify-center items-center">
                 <div className="bg-white p-5 rounded-2xl shadow-lg">
                     <div className="grid sm:flex justify-between items-center ">
                         <div className="flex gap-3 items-end">

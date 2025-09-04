@@ -14,17 +14,17 @@ const HeroSection = () => {
         <div className="w-full pt-20 lg:pt-15 overflow-hidden bg-[var(--lightBlue)]">
             <div className="relative flex flex-col gap-6 xl:flex-row items-center max-w-8xl  px-5 lg:px-20">
                 <div className="w-full xl:w-[50%] sm:p-10  z-3">
-                    <h2 className="text-4xl lg:text-5xl font-extrabold text-center md:text-left  leading-tight ">
+                    <h2 className="text-4xl lg:text-5xl font-extrabold text-center md:text-left  leading-tight " data-aos="fade-right" data-aos-duration="1500">
                         Find & Search Your
                         <span className="relative text-[var(--darkBlue)] mx-3">Favorite
                             <img src="/Vector5.png" alt="Vector5" className="absolute -bottom-2 right-0" /></span>
                         Doctor
                     </h2>
-                    <h3
+                    <h3 data-aos="fade-right" data-aos-duration="1600"
                         className="mt-6 md:mt-10 text-md lg:text-xl text-center md:text-left text-gray-700 font-light tracking-wider leading-relaxed">
                         Person with a medical degree whose job is to treat people who are ill or hurt . Doctor prescribed some medication.
                     </h3>
-                    <div id="search-bar" className="w-full max-w-2xl mx-auto mt-5 bg-white rounded-0 sm:rounded-full shadow-lg z-10 px-2">
+                    <div id="search-bar" data-aos="fade-right" data-aos-duration="1700" className="w-full max-w-2xl mx-auto mt-5 bg-white rounded-0 sm:rounded-full shadow-lg z-10 px-2">
                         <form className="flex flex-col sm:flex-row items-center justify-between gap-2 sm:gap-0 p-2" onSubmit={e => e.preventDefault()}>
                             <Autocomplete
                                 disablePortal
@@ -85,26 +85,26 @@ const HeroSection = () => {
                         </form>
                     </div>
                 </div>
-                <div className="w-full xl:w-[50%] flex justify-center md:justify-end">
-                    <img src="/Doc.png" className="w-full h-full object-cover z-3" alt="Doctor" />
+                <div className="w-full xl:w-[50%] flex justify-center md:justify-end" >
+                    <img src="/Doc.png" className="w-full h-full object-cover z-10" alt="Doctor" />
                 </div>
 
 
-                <img src="/Ellipse14.png" alt="Ellipse14" className="absolute bottom-0 -right-0 md:-right-30 md:h-120 w-full sm:w-auto z-1 object-contain" />
+                <img src="/Ellipse14.png"  alt="Ellipse14" className="absolute bottom-0 -right-0 md:-right-30 md:h-120 w-full sm:w-auto z-1 object-contain" />
                 <div className="hidden md:flex w-full gap-4 bg-[var(--darkBlue)] absolute bottom-0 left-0 z-2 py-4 px-20">
-                    <span className="flex flex-col text-3xl sm:text-5xl font-bold text-white">
+                    <span data-aos="fade-left" data-aos-duration="1500" className="flex flex-col text-3xl sm:text-5xl font-bold text-white">
                         24/7
                         <span className="text-gray-200 text-xs pt-2 text-center font-medium">Online Support</span>
                     </span>
                     <div className="line w-[1px] bg-gray-400 h-auto mx-10 rounded-4xl"></div>
                     {/*  */}
-                    <span className="flex flex-col text-3xl sm:text-5xl font-bold text-white">
+                    <span data-aos="fade-left" data-aos-duration="2500" className="flex flex-col text-3xl sm:text-5xl font-bold text-white">
                         100+
                         <span className="text-gray-200 text-xs pt-2 text-center font-medium">Doctors</span>
                     </span>
                     <div className="line w-[1px] bg-gray-400 h-auto mx-10 rounded-4xl"></div>
                     {/*  */}
-                    <span className="flex flex-col text-3xl sm:text-5xl font-bold text-white">
+                    <span data-aos="fade-left" data-aos-duration="2900" className="flex flex-col text-3xl sm:text-5xl font-bold text-white">
                         1 M+
                         <span className="text-gray-200 text-xs pt-2 text-center font-medium">Active Patients</span>
                     </span>
