@@ -32,7 +32,7 @@ const Quality = () => {
 
 
             <div data-aos="fade-right" data-aos-duration="1000" className="w-full lg:w-[60%] lg:h-[500px] p-5 lg:p-15">
-                <img className="h-full w-full object-cover rounded-3xl" src="/Rectangle-11.png" alt="Rectangle-11" />
+                <img className="h-full w-full object-cover rounded-3xl" src="/Rectangle-15.png" alt="Rectangle-15" />
             </div>
 
 
