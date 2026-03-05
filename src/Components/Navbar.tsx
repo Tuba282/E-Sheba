@@ -91,13 +91,13 @@ export default function DrawerAppBar(props: Props) {
                             </Button>
                         ))}
                     </Box>
-                    <Button sx={{ display: { xs: 'none', lg: 'block' } }} variant="outlined" className='rounded-full! me-3! border-[var(--darkBlue)]! hover:bg-[var(--darkBlue)]!'>
-                        <Typography sx={{ fontSize: '14px' }} className='text-[var(--darkBlue)] capitalize! duration-300!  hover:text-white!'>
+                    <Button sx={{ display: { xs: 'none', lg: 'block' } }} variant="outlined" className='rounded-full!  me-3! hover:bg-[var(--lightBlue)]! border-[var(--darkBlue)]! bg-[var(--darkBlue)]!'>
+                        <Typography sx={{ fontSize: '14px' }} className='capitalize! duration-300! text-white! hover:text-[var(--darkBlue)]! '>
                             Login
                         </Typography>
                     </Button>
-                    <Button sx={{ display: { xs: 'none', lg: 'block' } }} variant="outlined" className='rounded-full! hover:bg-[var(--lightBlue)]! border-[var(--darkBlue)]! bg-[var(--darkBlue)]!'>
-                        <Typography sx={{ fontSize: '14px' }} className='capitalize! duration-300! text-white! hover:text-[var(--darkBlue)]! '>
+                    <Button sx={{ display: { xs: 'none', lg: 'block' } }} variant="outlined" className='rounded-full! border-[var(--darkBlue)]! hover:bg-[var(--darkBlue)]!'>
+                        <Typography sx={{ fontSize: '14px' }} className='text-[var(--darkBlue)] capitalize! duration-300!  hover:text-white!'>
                             SignUp
                         </Typography>
                     </Button>
